@@ -1,0 +1,12 @@
+{
+  "name": "discussionbridge-statamic-ssg-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy:dry-run": "wrangler deploy --dry-run --config wrangler.jsonc",
+    "deploy": "wrangler deploy --config wrangler.jsonc --strict"
+  },
+  "devDependencies": {
+    "wrangler": "4.123.0"
+  }
+}

@@ -1,0 +1,6 @@
+tree:
+  - entry: home
+  - entry: ssg-simple
+  - entry: ssg-full
+  - entry: ssg-publish
+  - entry: ssg-from

@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+dist/
+authoring/.env
+authoring/database/*.sqlite
+authoring/storage/
+authoring/vendor/
