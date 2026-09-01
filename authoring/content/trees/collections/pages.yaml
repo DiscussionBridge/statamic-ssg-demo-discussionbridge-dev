@@ -1,8 +1,16 @@
 tree:
-  - entry: home
-  - entry: discussionbridge
+  -
+    entry: home
+  -
+    entry: discussionbridge
     children:
-      - entry: ssg-simple
-      - entry: ssg-full
-      - entry: ssg-publish
-      - entry: ssg-from
+      -
+        entry: ssg-simple
+      -
+        entry: ssg-full
+      -
+        entry: ssg-publish
+      -
+        entry: ssg-from
+      -
+        entry: 48065d0b-0cd9-4370-a0d4-0c20f915c799

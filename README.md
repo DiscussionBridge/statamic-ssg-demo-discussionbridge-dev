@@ -7,7 +7,7 @@ The protected authoring/build application runs separately as `statamicssg` on
 the shared platform host. It uses Statamic's official SSG package and the same
 `codeworkslabs/statamic-discussion-bridge` addon product used by the live Flat
 and DB profiles. The current SSG output was generated with addon
-`0.1.0-alpha.15` at commit `1184adbb3da52f9252da771e70ddc320c5f6ecb2`;
+`0.1.0-alpha.16` at commit `662abcdd7da69c54eb12702a5bd0fa2e71197f93`;
 its presentation styles are deliberately emitted once per generated page so a
 long-running SSG process cannot omit them after rendering its first page.
 Simple pages include a generated, sanitized reply snapshot and a bundled
@@ -29,3 +29,9 @@ Build order:
 
 Never deploy when the DiscussionBridge preparation gate or SSG generation
 fails.
+
+The eight-file generated estate includes the native Discourse-as-Publisher
+entry at `/discussionbridge/the-bridge-publishes-everywhere/`. Its authoring
+record is a genuine Statamic entry with explicit native-materialization
+authority and source revision `post:149:version:1`; the public bundle contains
+neither the connection secret nor a PHP runtime.
