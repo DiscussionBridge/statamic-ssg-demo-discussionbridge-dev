@@ -1,6 +1,8 @@
 tree:
   - entry: home
-  - entry: ssg-simple
-  - entry: ssg-full
-  - entry: ssg-publish
-  - entry: ssg-from
+  - entry: discussionbridge
+    children:
+      - entry: ssg-simple
+      - entry: ssg-full
+      - entry: ssg-publish
+      - entry: ssg-from

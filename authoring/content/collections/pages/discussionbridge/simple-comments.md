@@ -1,7 +1,6 @@
 ---
 title: Statamic SSG · Simple comments
 id: ssg-simple
-slug: discussionbridge/simple-comments
 template: default
 blueprint: pages
 discussionbridge_mode: simple

@@ -1,7 +1,6 @@
 ---
 title: Statamic SSG · Publishing through The Bridge
 id: ssg-publish
-slug: discussionbridge/publishing-through-the-bridge
 template: default
 blueprint: pages
 discussionbridge_publish: true

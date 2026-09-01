@@ -1,7 +1,6 @@
 ---
 title: Statamic SSG · Full comments
 id: ssg-full
-slug: discussionbridge/full-comments
 template: default
 blueprint: pages
 discussionbridge_mode: full
