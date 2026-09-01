@@ -15,10 +15,11 @@ is not part of the committed or generated asset bundle.
 Build order:
 
 1. update the protected authoring application;
-2. run `php please discussionbridge:ssg-prepare`;
-3. run `php please ssg:generate`;
-4. copy `storage/app/static` into `dist`;
-5. verify and deploy the immutable generated output.
+2. clear the Statamic Stache after content or template changes;
+3. run `php please discussionbridge:ssg-prepare`;
+4. run `php please ssg:generate`;
+5. copy `storage/app/static` into `dist`;
+6. verify and deploy the immutable generated output.
 
 Never deploy when the DiscussionBridge preparation gate or SSG generation
 fails.
