@@ -8,11 +8,11 @@ discussionbridge_topic_id: 40
 ---
 # Simple comments in generated HTML
 
-The article and its visible comments are ordinary static markup. During generation, the addon retrieves a bounded public reply snapshot from The Bridge, sanitizes it, and places it below this content.
+The article and its initial visible comments are ordinary static markup. During generation, the addon retrieves a bounded public reply snapshot from The Bridge, sanitizes it, and places it below this content. On each page load, a credential-free browser refresh replaces that fallback with the current public replies.
 
 ## Lightweight by default
 
-The initial page remains small. Additional comments use the native **Show more comments** disclosure, and a bounded ceiling sends longer conversations back to The Bridge.
+The initial page remains small. New replies appear without rebuilding the site. Additional comments use the native **Show more comments** disclosure, and a bounded ceiling sends longer conversations back to The Bridge.
 
 ## No plugin credential in the browser
 
