@@ -6,9 +6,11 @@ authoring delta for `statamic-ssg.demo.discussionbridge.dev`.
 The protected authoring/build application runs separately as `statamicssg` on
 the shared platform host. It uses Statamic's official SSG package and the exact
 same `codeworkslabs/statamic-discussion-bridge` addon installed by the live
-Flat and DB profiles. The deployed Cloudflare Worker serves generated files
-only: it has no PHP runtime, Statamic control panel, receiver credential, or
-adapter worker.
+Flat and DB profiles. The uploaded Cloudflare Worker asset bundle contains
+generated files only: it has no PHP runtime, Statamic control panel, receiver
+credential, or adapter worker. Cloudflare currently injects its separately
+managed Web Analytics beacon into live HTTP responses; that edge-added script
+is not part of the committed or generated asset bundle.
 
 Build order:
 
