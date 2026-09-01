@@ -6,7 +6,7 @@ discussionbridge_native_publication: true
 discussionbridge_resource_id: f16184e8-ac9f-44d7-9b9d-436131936ed3
 discussionbridge_topic_id: 53
 discussionbridge_topic_url: 'https://bridge.demo.discussionbridge.dev/t/the-bridge-publishes-everywhere/53'
-discussionbridge_source_revision: 'post:149:version:1'
+discussionbridge_source_revision: 'post:149:version:2'
 discussionbridge_publish: false
 ---
 
@@ -27,4 +27,6 @@ discussionbridge_publish: false
 </code></pre>
 <h2>Portable presentation, forum-owned discussion</h2>
 <p>Destination themes control typography and layout. DiscussionBridge transports bounded cooked content plus exact provenance. Replies remain on The Bridge and can appear through Simple, Full, or fullInteractive discussion modes without transferring moderation or login authority to a CMS.</p>
-<p>This is the flagship workflow in action: <strong>publish once from The Bridge, materialize natively everywhere, and keep the discussion free.</strong></p><hr><aside class="discussionbridge-publication"><p><strong>Published from <a href="https://bridge.demo.discussionbridge.dev/t/the-bridge-publishes-everywhere/53">The Bridge</a></strong></p><p>Source author: DiscussionBridge · Revision post:149:version:1 · Statamic 6 · DiscussionBridge for Statamic 0.1.0-alpha.16</p></aside>
+<p>This is the flagship workflow in action: <strong>publish once from The Bridge, materialize natively everywhere, and keep the discussion free.</strong></p>
+<h2>Revision propagation</h2>
+<p>This controlled update proves that one Discourse revision updates all seven native platform records in place without changing their destination identity.</p><hr><aside class="discussionbridge-publication"><p><strong>Published from <a href="https://bridge.demo.discussionbridge.dev/t/the-bridge-publishes-everywhere/53">The Bridge</a></strong></p><p>Source author: DiscussionBridge · Revision post:149:version:2 · Statamic 6 · DiscussionBridge for Statamic 0.1.0-alpha.16</p></aside>
