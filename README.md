@@ -7,7 +7,7 @@ The protected authoring/build application runs separately as `statamicssg` on
 the shared platform host. It uses Statamic's official SSG package and the same
 `codeworkslabs/statamic-discussion-bridge` addon product used by the live Flat
 and DB profiles. The current SSG output was generated with addon
-`0.1.0-alpha.22` at commit `5280533b68aaa370ad0e5bf831e60f7c53460585`;
+`0.1.0-alpha.25` at commit `c6c6a7b5da2b90feb44e574e1a5702a936671f63`;
 its presentation styles are deliberately emitted once per generated page so a
 long-running SSG process cannot omit them after rendering its first page.
 Simple pages include a generated, sanitized reply snapshot and a bundled
