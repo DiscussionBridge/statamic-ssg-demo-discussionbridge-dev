@@ -4,6 +4,9 @@
 {{ elseif discussionbridge_mode == "full" }}
     {{ discussionbridge:article entry="{id}" }}
     {{ discussionbridge:full topic="{discussionbridge_topic_id}" canonical="{discussionbridge_canonical_url}" }}
+{{ elseif discussionbridge_mode == "interactive" }}
+    {{ discussionbridge:article entry="{id}" }}
+    {{ discussionbridge:interactive topic="{discussionbridge_topic_id}" }}
 {{ elseif discussionbridge_mode == "fullInteractive" }}
     {{ discussionbridge:article entry="{id}" }}
     {{ discussionbridge:interactive topic="{discussionbridge_topic_id}" }}
