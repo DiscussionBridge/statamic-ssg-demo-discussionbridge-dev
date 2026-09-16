@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "refresh:socials": "node scripts/refresh-social-footer.mjs",
-    "deploy:dry-run": "wrangler deploy --dry-run --config wrangler.jsonc",
-    "deploy": "wrangler deploy --config wrangler.jsonc --strict"
+    "verify:static": "node scripts/verify-static-bundle.mjs statamic-ssg.demo.discussionbridge.dev",
+    "test": "node --test test/*.test.mjs",
+    "deploy:dry-run": "node scripts/deploy-static.mjs --dry-run",
+    "deploy": "node scripts/deploy-static.mjs"
   },
   "devDependencies": {
     "wrangler": "4.123.0"

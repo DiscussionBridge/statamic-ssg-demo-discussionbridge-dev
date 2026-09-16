@@ -29,10 +29,19 @@ Build order:
 3. run `php please discussionbridge:ssg-prepare`;
 4. run `php please ssg:generate`;
 5. copy `storage/app/static` into `dist`;
-6. verify and deploy the immutable generated output.
+6. run `npm test` and `npm run verify:static`;
+7. run `npm run deploy:dry-run`, then `npm run deploy` for the approved
+   immutable generated output.
 
 Never deploy when the DiscussionBridge preparation gate or SSG generation
-fails.
+fails. Both deployment commands run the static-bundle preflight before
+Wrangler. It checks the configured custom domain, bounded asset inventory,
+required home and 404 pages, unexpected executable/config file types, and
+obvious protected server material; it prints a content digest without writing
+into `dist`. This check does **not** prove the output is fresh relative to the
+protected Statamic authoring application. Keep the generation/copy receipt and
+compare the digest before deployment. `deploy:dry-run` does not publish the
+Worker; the live deployment and human Cloudflare gate remain separate steps.
 
 The ten-page generated estate includes two shared-topic demonstrations plus the native Discourse-as-Publisher
 entry at `/discussionbridge/the-bridge-publishes-everywhere/`. Its authoring
